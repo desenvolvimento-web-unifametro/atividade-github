@@ -6,9 +6,26 @@ Regras a seguir:
 * Fluxo Contínuo: Só inicie a próxima tarefa após realizar o Merge da anterior na main.
 
 ## Para iniciar a atividade:
-1 - Clone o projeto para a sua máquina.
-
-2 - Entre na repositorio que você acabou de clonar 
+1 - Crie um repositorio no seu github
+2 - Crie uma pasta para o projeto no seu computador
+3 - Abra essa pasta no VSCODE
+4 - Primeiro comando para comecar o versionamento utilizando git
+```
+git init
+```
+5 - Inicie as atividades e utilize os comandos conforme necessario:
+```
+git add .
+```
+```
+git commit -m “...”
+```
+```
+git remote add origin url-do-repositorio
+```
+```
+git push -u origin main
+```
 
 ## Passo a Passo do Fluxo de Trabalho
 Para cada item da lista de tarefas, siga estes comandos:
