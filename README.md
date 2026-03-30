@@ -7,6 +7,7 @@ Regras a seguir:
 
 ## Para iniciar a atividade:
 1 - Clone o projeto para a sua máquina.
+
 2 - Entre na repositorio que você acabou de clonar 
 
 ## Passo a Passo do Fluxo de Trabalho
