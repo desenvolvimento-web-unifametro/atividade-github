@@ -5,49 +5,61 @@ Regras a seguir:
 * Nomenclatura: As branches devem seguir o padrão feature/nome-da-tarefa (letras minúsculas e separadas por hífen).
 * Fluxo Contínuo: Só inicie a próxima tarefa após realizar o Merge da anterior na main.
 
-## Para iniciar a atividade:
-1 - Crie um repositorio no seu github
+## Para iniciar o projeto:
+1 - Crie um repositorio no seu github. Obs: lembre de ativar a criacao do arquivo README.md durante a criacao.
 
 2 - Crie uma pasta para o projeto no seu computador
 
-3 - Abra essa pasta no VSCODE
+3 - Abra esta pasta no VSCODE
 
-4 - Primeiro comando para comecar o versionamento utilizando git
+4 - Clone o repositorio que voce criou no seu github
 ```
-git init
+git clone url-do-repositorio-remoto
 ```
-5 - Inicie as atividades e utilize os comandos conforme necessario:
+5 - Entre na pasta que foi clonada
+```
+cd nome-da-pasta
+```
+
+## Passo a Passo do Fluxo de Trabalho
+Para cada item da lista de tarefas, siga estes comandos:
+
+1 - Crie uma branch para a atividade
+```
+git checkout -b nome-da-branch
+```
+
+2 - Inicie as modificacoes e utilize os comandos conforme necessario:
+```
+git status
+```
 ```
 git add .
 ```
 ```
 git commit -m “...”
 ```
-```
-git remote add origin url-do-repositorio
-```
-```
-git push -u origin main
-```
 
-## Passo a Passo do Fluxo de Trabalho
-Para cada item da lista de tarefas, siga estes comandos:
-
-1 - Inicie a tarefa: Certifique-se de estar na main e atualizada.
+3 - Envie as modificacoes que voce fez para o seu repositorio remoto
 ```
-git checkout main
-git pull origin main
-git checkout -b nome-da-branch
-```
-
-2 - Trabalhe e Comite: Após realizar a alteração específica:
-```
-git add .
-git commit -m "tipo: descricao curta do que foi feito"
 git push -u origin nome-da-branch
 ```
 
-3 - Integre: Abra o PR no GitHub, faça o Merge e volte para a main para repetir o processo no próximo item.
+4 - No github, abra o PR
+
+5 - No github, faça o merge do PR
+
+6 - Volte para o VSCODE e vá para sua branch main
+```
+git checkout main
+```
+
+7 - Atualize sua branch main 
+```
+git pull origin main
+```
+
+8 - Veja a proxima task e comece o ciclo novamente a partir do passo 1 do fluxo de trabalho...
 
 
 ## Lista de Tarefas (Backlog)
