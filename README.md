@@ -9,7 +9,9 @@ Regras a seguir:
 1 - Crie um repositorio no seu github
 
 2 - Crie uma pasta para o projeto no seu computador
+
 3 - Abra essa pasta no VSCODE
+
 4 - Primeiro comando para comecar o versionamento utilizando git
 ```
 git init
